@@ -103,9 +103,10 @@ li a:hover, li a:active{
         float: right;
         transition: .3s;
     }
-   .icon:hover,.icon:active{
+   .icon:hover{
        background-color: #404040;
    }
+  
     #menu {
         display: none;
         width: 100%;
@@ -122,10 +123,12 @@ li a:hover, li a:active{
         margin: 1% 30% 10% 30%;
         cursor: pointer;
         transition: .3s;
+        
     }
-    .x:hover,.x:active{
+    .x:hover{
         text-shadow: 0 0 4px #999999, 0 0 4px #999999;
     }
+    
     nav a{
         display: block;
         color: white;
@@ -134,9 +137,14 @@ li a:hover, li a:active{
         font-size: 200%;
         padding: 2%;
         transition: .3s;
+        
     }
-    nav a:hover,nav a:active{
+    nav a:hover{
         background-color: #0d0d0d;
+    }
+    nav a:active{
+        border: 1px solid white;
+        
     }
     .round{
         width: 25%;
