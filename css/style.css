@@ -34,7 +34,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover, li a:active{
+li a:hover{
     background-color: #404040;
 }
 
@@ -142,10 +142,7 @@ li a:hover, li a:active{
     nav a:hover{
         background-color: #0d0d0d;
     }
-    nav a:active{
-        border: 1px solid white;
-        
-    }
+    
     .round{
         width: 25%;
     }
