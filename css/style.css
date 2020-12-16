@@ -3,8 +3,9 @@ body {
     padding: 0;
     font-family: sans-serif;
     overflow-x: hidden;
+    
 }
-/* navbar and home part */
+/* navbar and home part -------------------------------------------------- */
 ul {
         list-style-type: none;
         margin: 0;
@@ -153,19 +154,114 @@ li a:hover{
         font-size: 150%;
     }
  }
- /* art gallery part */
+ /* what's new part-------------------------------------------------- */
+ .new{
+     width: 80%;
+     margin: 0 auto;
+     padding: 2%;
+     margin-top: -100px;
+     background-color:white;
+     border: 5px solid #f2f2f2;
+ }
+ .newp{
+     color: #1a1a1a;
+     font-size:250% ;
+     margin: 0;
+ }
+ .newpp{
+     color: #404040;
+     font-size: 130%;
+     margin: 0;
+     padding-top: 1%;
+ }
+ @media screen and (max-width:800px){
+     .new{
+         padding: 4%;
+         width: 70%;
+     }
+ }
+ /* explore part---------------------------------------------------- */
+ #explore{
+    padding-top: 20px;
+}
+.begin-top{
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+.p-title{
+    color: #0d0d0d;
+    font-size: 250%;
+    margin: 0;
+}
+.p-para{
+    color: #1a1a1a;
+    font-size: 150%;
+    margin: 0;
+    padding-top: 1%;
+}
+.box{
+    width: 14%;
+    display: inline-block;
+    margin: 2%;
+    background-color: white;
+    border: 5px solid #d9d9d9;
+    border-radius: 15px;
+    transition: .1s;
+}
+.box:hover{
+    box-shadow: 5px 10px 15px #999999;
+}
+.img-box{
+    width: 30%;
+    margin: 10px auto;
+    display: block;
+    border: 2px solid #404040;
+}
+.p-box{
+    text-align: center;
+    font-size: 160%;
+    color: #1a1a1a;
+}
+.boxes a{
+    text-decoration: none;
+}
+@media screen and (max-width:800px){
+    .begin-top{
+        width: 70%;
+    }
+    .box{
+        width: 60%;
+        display: block;
+        margin: 20px auto;
+    }
+    .img-box{
+        width: 20%;
+        margin: 10px auto;
+        display: block;
+        border: 2px solid #404040;
+    }
+    .boxes a{
+        text-decoration: none;
+    }
+}
+ /* art gallery part-------------------------------------------------------------- */
  #gallery{
-     padding-top: 100px;
+     padding-top: 80px;
  }
  .art{
     margin: 0 auto;
-    background-color: #e6faff;
+    background-color: #ccf5ff;
     text-align: center;
 }
 .letter {
     font-size: 300%;
     font-weight: bolder;
     margin: 0 1%;
+}
+.art-p{
+    font-size: 150%;
+    letter-spacing: 2px;
 }
 .main {
     background-color: #ff9966;
@@ -190,7 +286,9 @@ li a:hover{
 .btm a{
     font-size: 150%;
     color: #cc4400;
-    
+}
+.btm a:hover{
+    font-style: italic;
 }
 
 @media screen and (max-width:800px) {
@@ -224,9 +322,9 @@ li a:hover{
         
     }
 }
-/* about part */
+/* about part----------------------------------------------------------------- */
 #about{
-    padding-top: 50px;
+    padding-top: 30px;
     margin-bottom: 50px;
 }
     
