@@ -94,6 +94,9 @@ li a:hover{
     body{      
        background-color: white;   
     }
+    ul{
+        font-size: 5vw;
+    }
     li a {
         display: none;
     }
