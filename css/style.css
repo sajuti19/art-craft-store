@@ -105,9 +105,8 @@ li a:hover{
         transition: .3s;
     }
    .icon:hover{
-       background-color: #404040;
+       background-color: #808080;
    }
-  
     #menu {
         display: none;
         width: 100%;
@@ -141,7 +140,7 @@ li a:hover{
         
     }
     nav a:hover{
-        background-color: #0d0d0d;
+        background-color: black;
     }
     
     .round{
